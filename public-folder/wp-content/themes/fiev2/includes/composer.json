@@ -1,0 +1,8 @@
+{
+    "require": {
+        "kreait/firebase-php": "^1.0",
+        "firebase/php-jwt" : "^3.0",
+        "dompdf/dompdf": "^0.8.0",
+        "cybersource/sdk-php": "^1.0"
+    }
+}

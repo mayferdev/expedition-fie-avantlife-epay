@@ -1,0 +1,31 @@
+{
+  "name": "expedition_optin",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.6.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "jquery": "^3.4.1",
+    "locutus": "^2.0.10",
+    "qs": "^6.9.0",
+    "react": "^15.3.2",
+    "react-animated-css": "^1.0.4",
+    "react-credit-card-input": "^1.0.10",
+    "react-credit-cards": "^0.8.0",
+    "react-dom": "^15.3.2",
+    "react-images-upload": "^1.2.7",
+    "react-owl-carousel2": "^0.3.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "spectre.css": "^0.1.27",
+    "styled-components": "3.4.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

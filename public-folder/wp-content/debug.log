@@ -1,0 +1,103 @@
+[19-Mar-2021 18:50:55 UTC] PHP Notice:  Undefined variable: response in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:50:55 UTC] PHP Notice:  Undefined variable: handler in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:50:55 UTC] PHP Notice:  Undefined variable: request in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:50:55 UTC] WordPress database error Table 'avantlife_wp66.wpxj_what_to_bring' doesn't exist for query 
+			SELECT * FROM wpxj_what_to_bring
+			WHERE user_id = 0 AND tour_id = 58; made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, tours_API->get_optin_tour, tours_API->get_tour_info, Expedition_Helper::getArrayWhatToBringByTourAndUser, W3TC\DbCache_WpdbNew->query, W3TC\DbCache_WpdbInjection_QueryCaching->query, W3TC\_CallUnderlying->query, W3TC\DbCache_WpdbNew->query, W3TC\DbCache_WpdbInjection->query, W3TC\DbCache_WpdbNew->default_query
+[19-Mar-2021 18:50:59 UTC] PHP Notice:  Undefined variable: response in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:50:59 UTC] PHP Notice:  Undefined variable: handler in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:50:59 UTC] PHP Notice:  Undefined variable: request in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:51:30 UTC] PHP Notice:  Undefined variable: response in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:51:30 UTC] PHP Notice:  Undefined variable: handler in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:51:30 UTC] PHP Notice:  Undefined variable: request in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:51:30 UTC] >> pay with credit card epay: 
+[19-Mar-2021 18:51:30 UTC] New Request: 
+[19-Mar-2021 18:51:30 UTC] Array
+(
+    [0] => Array
+        (
+            [AuthorizationRequest] => Array
+                (
+                    [posEntryMode] => 012
+                    [pan] => 4000000000000416
+                    [expdate] => 2401
+                    [amount] => 30000
+                    [track2Data] => 
+                    [cvv2] => 123
+                    [paymentgwIP] => 190.149.69.135
+                    [shopperIP] => 190.104.120.207
+                    [merchantServerIP] => 67.205.167.98
+                    [merchantUser] => 76B925EF7BEC821780B4B21479CE6482EA415896CF43006050B1DAD101669921
+                    [merchantPasswd] => DD1791DB5B28DDE6FBC2B9951DFED4D97B82EFD622B411F1FC16B88B052232C7
+                    [terminalId] => 77788881
+                    [merchant] => 00575123
+                    [messageType] => 0200
+                    [auditNumber] => 000026
+                    [additionalData] => 
+                )
+
+        )
+
+)
+
+[19-Mar-2021 18:51:31 UTC] >> Response: 
+[19-Mar-2021 18:51:31 UTC] stdClass Object
+(
+    [response] => stdClass Object
+        (
+            [auditNumber] => 000026
+            [referenceNumber] => 107812000026
+            [authorizationNumber] => 000020
+            [responseCode] => 00
+            [messageType] => 0210
+        )
+
+)
+
+[19-Mar-2021 18:51:31 UTC] 00
+[19-Mar-2021 18:51:32 UTC] >>>>MUB response: 
+[19-Mar-2021 18:51:32 UTC] 1
+[19-Mar-2021 18:51:32 UTC] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 20
+            [user_id] => 3
+            [alias] => 
+            [credit_card_name] => noreal jm
+            [credit_card_expiry] => 2401
+            [credit_card_brand] => 
+            [gateway] => epay
+            [token] => 
+            [created_at] => 2021-03-19 18:51:31
+            [updated_at] => 2021-03-19 18:51:31
+            [credit_card_last4] => 0416
+            [status] => 1
+            [afiliation] => 00575123
+            [audit_num] => 000026
+            [reference_num] => 107812000026
+            [auth_num] => 000020
+            [amount] => 300.00
+            [booking_id] => 36
+        )
+
+)
+
+[19-Mar-2021 18:51:32 UTC] WordPress database error Table 'avantlife_wp66.wpxj_activities' doesn't exist for query SHOW FULL COLUMNS FROM `wpxj_activities` made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, tours_API->bookWebWithPaymentOption, Expedition_Helper::insertActivityRecord, W3TC\DbCache_WpdbNew->insert, W3TC\DbCache_WpdbInjection_QueryCaching->insert, W3TC\_CallUnderlying->insert, W3TC\DbCache_WpdbNew->insert, W3TC\DbCache_WpdbInjection->insert, W3TC\DbCache_WpdbNew->default_insert, W3TC\DbCache_WpdbNew->query, W3TC\DbCache_WpdbInjection->query, W3TC\DbCache_WpdbNew->default_query
+[19-Mar-2021 18:51:41 UTC] PHP Notice:  Undefined variable: response in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:51:41 UTC] PHP Notice:  Undefined variable: handler in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:51:41 UTC] PHP Notice:  Undefined variable: request in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:51:42 UTC] PHP Notice:  Undefined variable: response in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:51:42 UTC] PHP Notice:  Undefined variable: handler in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:51:42 UTC] PHP Notice:  Undefined variable: request in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:51:44 UTC] PHP Notice:  Undefined variable: response in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:51:44 UTC] PHP Notice:  Undefined variable: handler in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:51:44 UTC] PHP Notice:  Undefined variable: request in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:51:53 UTC] PHP Notice:  Undefined variable: response in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:51:53 UTC] PHP Notice:  Undefined variable: handler in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:51:53 UTC] PHP Notice:  Undefined variable: request in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:51:54 UTC] >>>>MUB response: 
+[19-Mar-2021 18:51:54 UTC] 1
+[19-Mar-2021 18:52:44 UTC] PHP Notice:  Undefined variable: response in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:52:44 UTC] PHP Notice:  Undefined variable: handler in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
+[19-Mar-2021 18:52:44 UTC] PHP Notice:  Undefined variable: request in /home/avantlife/eventos.avantlife.gt/wp-content/themes/fiev2/functions.php on line 15
