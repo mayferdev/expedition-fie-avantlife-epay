@@ -1,0 +1,9 @@
+{
+    "success":true,"code":"epay_success",
+    "message":"Transaccion exitosa",
+    "status":200,"epay_response_code":"00",
+    "audit_number":"000078",
+    "reference_number":"108216000078",
+    "authorization_number":"001790",
+    "message_type":"0210","amount":30000
+}
